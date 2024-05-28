@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html , body{
+    height: 100vh;
+    max-width: 100vw;
+    background-color: black;
+}
+
+.container {
+    width: 88vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.child {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+
+#page1 {
+    background-color: rgb(203, 203, 203);
+}
+
+#page2 {
+    background-color: rgb(173, 172, 172);
+}
+
+#page3 {
+    background-color: rgb(137, 136, 136);
+}
