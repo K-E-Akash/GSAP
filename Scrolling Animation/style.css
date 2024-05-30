@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.page {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#container {
+    background-color: yellow;
+}
+
+#marque {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-wrap: nowrap;
+    gap: 3vw;
+    padding: 2vw 0;
+    transform: translateX(100%);
+}
+
+#marque h1 {
+    font-family: monospace;
+    color: black;
+    text-transform: uppercase;
+}
+
+img {
+    width: 40px;
+}
